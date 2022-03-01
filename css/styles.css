@@ -1,0 +1,429 @@
+/* NOTE: z-index only works if the position of the tag is fixed,absolute or relative else
+the z-index proeprty will not work */
+
+
+/* the code below is used to style the body tag */
+body {
+  /* using the font-family property for changing the font-family of the webpage */
+  font-family: 'Montserrat', sans-serif;
+  /* using the text-align tag to make the tags in the center */
+  text-align: center;
+}
+
+/* the code below is used to style the h1,h2,h3,h4,h5,h6 tag in our webpage */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* using the font-family property to give a font-family to the h1,h2,h3,h4,h5,h6 tag in the webpage */
+  font-family: "Montserrat";
+  /* using the font-weight property to give a font-weight to the h1,h2,h3,h4,h5,h6 tag in the webpage */
+  font-weight: bold;
+}
+
+/* the code below is to override the container-fluid bootstrap css class so as to add some custom style to the tag
+associated with this class */
+.container-fluid {
+  /* using the padding property to add 3% padding to top and bottom and 15% padding to the left and right side of
+  the tag associated with this class */
+  /* padding: 3% 15% 7%; */
+  padding: 7% 15%;
+}
+
+/* the code below is used to style the tag associated with the colored-section class */
+.colored-section {
+  /* using the background-color property to change the background color of the tag
+  associated with the title id */
+  background-color: #ff4c68;
+  /* using the color property to change the font-color of the text associated with the tag associated with the
+  title id */
+  color: white;
+}
+
+/* the code below is used to style the tag associated with the white-section class */
+.white-section {
+  /* using the background-color property to give a white background color to the tag
+  associated with this id */
+  background-color: #fff;
+}
+
+/* the code below is used to style the tag associated with the id title */
+/* #title { */
+  /* using the background-color property to change the background color of the tag
+  associated with the title id */
+  /* background-color: #ff4c68; */
+  /* using the color property to change the font-color of the text associated with the tag associated with the
+  title id */
+  /* color: white; */
+  /* using the position proeprty to change the position of the tag to absolute */
+  /* position: absolute; */
+  /* using the z-index proeprty to move the tag more far from the screen */
+  /* z-index: -1; */
+  /* using the height proeprty to change the height of the tag associated with this
+  id to 750px */
+  /* height: 750px; */
+
+
+  /* using the text-align property to align the text to the left side */
+  /* text-align: left; */
+/* } */
+
+/* the code below is used to style the container-fluid class associated with the title id of the webpage */
+#title .container-fluid {
+  /* using the padding property to add 3% padding to top and bottom and 15% padding to the left and right side of
+  the tag associated with this class */
+  padding: 3% 15% 7%;
+
+  /* using the text-align property to align the text to the left side */
+  text-align: left;
+}
+
+/* the code below is used to style the tag associated with the title-bar-heading-text class */
+.title-bar-heading-text {
+  /* using the font-family property to add a font-family for the text associated with the tag associated
+  with this class */
+  font-family: 'Montserrat', sans-serif;
+  /* the code below is to use the font-size proeprty to change the font-size of the text associated with the tag associated
+  with this class */
+  font-size: 3.5rem;
+  /* using the line-height proeprty to change the line-height of the text associated with the tag associated with this class */
+  line-height: 1.5;
+  /* using the font-weight property to change the font-weight to bold for the text associated with the tag associated with this class */
+  font-weight: 900;
+}
+
+
+
+/* The code below is used to style the nav bar of the webpage */
+/* the code below is used to style the nav bar of the webpage by overriding the navbar bootstrap css class */
+.navbar {
+  /* using the padding-bottom to add a padding to the bottom of the nav-bar */
+  padding: 0 0 4.5rem;
+}
+
+/* the code below is used to style the TinDog brand by overriding the .navbar-brand bootstrap css class */
+.navbar-brand {
+  /* using the font-family property to change the font-family to ubuntu */
+  font-family: "Ubuntu";
+  /* using the font-size property to change the font-size to  2.5rem */
+  font-size: 2.5rem;
+  /* using the font-weight property to change the font-weight to bold */
+  font-weight: bold;
+}
+
+/* the code below is used to style the nav-bar buttons by overriding the nav-item bootstrap css class */
+.nav-item {
+  /* using the padding property to add an 18px padding to the left and the right of the nav bar buttons */
+  padding: 0 18px;
+}
+
+/* the code below is used to style the text of the buttons in the nav-bar by overriding the nav-link bootstrap css class */
+.nav-link {
+  /* using the font-size property to change the font-size to 1.2 rem  */
+  font-size: 1.5rem;
+  /* using the font-family property to change the font-family to Montserrat-Light */
+  font-family: "Montserrat-Light";
+}
+
+/* the code below is used to style the download buttons in the title section */
+
+/* the code below is used to style the tag associated with the download-button class */
+.download-button {
+  /* using the margin-property to add a marin to the button associated with the download-button class */
+  margin: 5% 3% 5% 0;
+}
+
+/* the code below is used to style the title image class */
+/* the code below is used to style the tag associated with the title-image class */
+.title-image {
+  /* using the width property to change the width to 60% of the tag associated with this class */
+  width: 60%;
+  /* using the transform property to rotate the tag associated with this class to 25degree */
+  transform: rotate(25deg);
+  /* using the position proeprty to change the position of the tag to absolute */
+  position: absolute;
+  /* using the z-index proeprty to move the tag more far from the screen */
+  /* z-index: -1; */
+  /* giving a margin of 30% from the right side of the image */
+  right: 30%;
+}
+
+/* the code below is used to style the features section of the webage */
+
+/* the code below is used to style the tag associated with the features id */
+#features {
+  /* using the padding proeprty to give a padding to the tag assciated with the id */
+  /* padding: 7% 15%; */
+  /* using the background-color property to give a white background color to the tag
+  associated with this id */
+  /* background-color: #fff; */
+  /* using the position property to make the position relative for the tag assciated
+  with this id */
+  position: relative;
+  /* using the z-index property to change the z-index of the tag assciated with this
+  id to 1 so  that the tag should come more towards the screen */
+  /* z-index: 1; */
+  /* moving the tag 200px above from its current bottom position by using bottom
+  property */
+  /* top: 0px; */
+}
+
+
+/* the code below is used to style the tag associated with the features-icon class */
+.features-icon {
+  /* using the color property to change the color of the tag associated with the features-icon class */
+  color: #ef8172;
+  /* the code below is used to give 10px padding from the bottom of the tag associated with this class */
+  /* padding-bottom: 10px; */
+
+  /* using the margin-bottom property to add a 1 rem margin to the bottom of the tag assciated with the class */
+  margin-bottom: 1rem;
+}
+
+/* the code below is used to style the tag associated with the Features-icon class */
+
+/* using the :hover sudo class for styling the tag assciated with the features class */
+.features-icon:hover {
+  /* using the color property to change the color of the tag assciated with the features-icon class */
+  color: #ff4c68;
+}
+
+/* the code below is used to style the tag associated with the features-col class */
+.features-col {
+  /* using the text-align tag to make the tags in the center */
+  /* text-align: center; */
+  /* using the padding proeprty to add a padding to the tag assciated with this class */
+  padding: 5%;
+}
+
+/* the code below is used to style the tag associated with the features-row class */
+/* .features-row { */
+/* the code below is used to give a 10px padding from the top of the tag associated with the class */
+/* padding-top: 50px; */
+/* using the font-family proeprty to change the font-family of the h3 tag associated with this class */
+/* font-family: "Montserrat"; */
+/* using the font-size property to change the font-size to 1.5rem */
+/* font-size: 1.5rem; */
+/* } */
+
+/* the code below is used to style the h3 tag associated with the features-heading class */
+.features-heading {
+  /* using the font-family proeprty to change the font-family of the h3 tag associated with this class */
+  font-family: "Montserrat";
+  /* using the font-size property to change the font-size to 1.5rem */
+  font-size: 1.5rem;
+  /* using the font-weight property to make the font-weight to bold */
+  font-weight: bold;
+}
+
+/* the code below is used to style the p tag inside the tag assciated with the features-row class */
+.features-paragraph {
+  /* using the font-family proeprty to change the font-family of the h3 tag associated with this class */
+  /* font-family: "Montserrat"; */
+  /* using the font-size property to change the font-size to 1.5rem */
+  /* font-size: 1.5rem; */
+  /* using the color proeprty to change the font color of the text */
+  color: #8f8f8f;
+}
+
+
+/* the code below is used for styling the testimonials section of the webpage */
+
+/* the code below is used to style the tag associated with the testimonials id */
+#testimonials {
+  /* using the padding property to give a padding to the tag associated with the id */
+  /* padding: 7% 15%; */
+  /* using the text align property to align the tags to the center */
+  /* text-align: center; */
+  /* using the background-color property to change the background color of the tag assciated with the id */
+  background-color: #ef8172;
+  /* using the color property to change the color of the text to white */
+  /* color: white; */
+}
+
+/* the code below is used for styling the tag associated with the testimonial-description class */
+.testimonial-description {
+  /* using the font-family property to change the font-family to monsterrat */
+  font-family: "Montserrat";
+  /* using the font-size property to change the font-size of the text */
+  font-size: 3.7rem;
+  /* using the font-weight proeprty to change the font-weight to bold */
+  font-weight: bold;
+  /* using the line-height property to change the line-height of the text */
+  line-height: 1.5;
+}
+
+/* the code below is used to style the tag associated with the class testimonial-image */
+.testimonial-image {
+  /* using the width property to change the width of the tag associated with the class */
+  width: 10%;
+  /* using the border-radius proeprty to change the border-radius of the tag associated with the class */
+  border-radius: 100%;
+  /* This will make the image rounded */
+  /* using the margin proeprty to give a margin to the tag */
+  margin: 20px;
+}
+
+/* the code below is used to style the tag associated with the crousal-item class */
+.carousel-item {
+  /* using the padding property to give a padding to the tag associated with the id */
+  padding: 7% 15%;
+}
+
+
+/* the code below is used to style the press section of the webpage */
+
+/* the code below is used to style the tag associated with the press id */
+#press {
+  /* using the background-color property to change the background-color */
+  background-color: #ef8172;
+  /* using the text-align property to align all the tags assciated with this id to center */
+  /* text-align: center; */
+  /* using the padding-bottom proeprty to give a bottom-padding of 3% */
+  padding-bottom: 3%;
+}
+
+
+/* the code below is used to style the tag associated with the press-logo class */
+.press-logo {
+  /* using the width proeprty to change the width of the tag assciated with the class */
+  width: 15%;
+  /* using the padding proeprty to add a padding to the tag associated with the class */
+  padding: 20px 20px 50px;
+}
+
+
+/* the code below is used to style the tag associated with the pricing id */
+#pricing {
+  /* using the padding property to give a 100px padding on all four sides of the
+  tag associated with the id */
+  padding: 100px;
+  /* using the text-align property to align the text in center */
+  /* text-align: center; */
+}
+
+/* the code below is used to style the tag associated with the pricing-heading classs */
+.pricing-heading {
+  /* using the font-weight proeprty to make the font-weight bold */
+  font-weight: bold;
+  /* using the font-size property to change the font-size of the text */
+  font-size: 2.8rem;
+}
+
+/* the code below is used to style the tag associated with the price-text class */
+.price-text {
+  /* using the font-size property to change the font-size of the text associated with this class */
+  font-size: 3rem;
+  /* using the line-height property to change the line-height of the text associated with this class */
+  line-height: 1.5;
+}
+
+/* the code below is used to style the tag associated with the pricing-column class */
+.pricing-column {
+  /* using the padding proeprty to give some padding to the tag associated with this class */
+  padding: 3% 2%;
+}
+
+
+/* the code below is used to add media query to our webpage using @media annotation */
+
+/* the line of code below means that if the screen size is 1028px or smaller than that then the 
+code inside the media query block should execute */
+@media (max-width: 1028px) {
+
+  /* the code below is used to style the tag associated with the title-image class */
+  .title-image {
+    /* using the position property to change the position of the tag associated with this class
+    from absolute to static if the screen size in width is smaller than or equal to 1028px */
+    position: static;
+    /* using the transform property to rotate the image back to 0 th position when the screen 
+    size is smaller than or equal to 1028px */
+    transform: rotate(0);
+    /* here 0 means back to original position not the 0 degree */
+  }
+
+  /* the code below is used to style the tag associated with the title id when the screen size
+  is smaller than or equal to 1028px */
+  #title {
+    /* using the text-align property to make the text align to center when the screen size is smaller
+    than or equal to 1028px */
+    text-align: center;
+  }
+
+}
+
+
+/* the code below is used to style the tag associated with the cta id */
+/* #cta { */
+  /* using the background-color property for giving a background-color to the tag associated with the
+  webpage */
+  /* background-color: #ff4c68; */
+  /* using the text-align property to align the text in the center of the webpage */
+  /* text-align: center; */
+  /* using the padding-bottom property to give a padding from the bottom */
+  /* padding-bottom: 3%; */
+  /* using the padding property to give a padding to the tag associated with this class */
+  /* padding: 7% 15%; */
+/* } */
+
+/* the code below is to style the tag associated with the cta-heading class */
+.cta-heading {
+  /* using the font-family property to change the font-family of the text associated with the tag
+  below */
+  font-family: 'Montserrat';
+  /* using the color property to change the font color to white */
+  color: white;
+  /* using the font-weight property to make the font-weight bold */
+  font-weight: bold;
+  /* using the font-size to change the font-size of the text */
+  font-size: 3.5rem;
+  /* using the padding property to give a padding to the text associated with the text */
+  padding: 0 10% 1%;
+  /* using the line-height property to give a line-height to the text */
+  line-height: 1.5;
+}
+
+/* the code below is used to style the tag associated with the cta-download-button class */
+.cta-download-button {
+  /* using the margin-left property to give a margin from the left side of the tag associated with this class */
+  margin-left: 1%;
+  /* using margin-top property to give a margin from the top of the tag associated with this class */
+  margin-top: 2%;
+}
+
+/* the code below is used to style the tag associated with the footer id */
+#footer {
+  /* using the background-color property to give a background-color to the tag associated with this class */
+  background-color: #fff;
+  /* using the text-align property to align the text and the tags to the center of the webpage */
+  /* text-align: center; */
+  /* using the padding property to add a padding to the tag associated with this class */
+  /* padding: 7% 15%; */
+}
+
+
+/* the code below is used to style the tag associated with the footer-icon class */
+.footer-icon {
+  /* using the margin property to add a margin to  the tag associated with this class */
+  margin: 20px 10px;
+}
+
+/* the code below is used to style the p tag associated with the footer id */
+#footer p {
+  /* using the padding-top property to give a padding from the top  */
+  padding-top: 1%;
+}
+
+/* the code below is to use the media query for styling the tag according to the feature */
+@media (max-width: 1028px) {
+
+  /* the code below is used to style the tag associated cta-heading class when the width of the screen is less
+  than or equal to 1028px */
+  .cta-heading {
+    /* using the font-size property to change the font-size of the tag associated with this class when the
+    screen size is smaller than or equal to 1028px */
+    font-size: 1rem;
+  }
+}
